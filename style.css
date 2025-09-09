@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #F75270;
+    
+}
+
+#forCard{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    height: 450px;
+    width: 300px;
+    background-color: #BBDCE5;
+    border-radius: 10px;
+    padding: 10px;
+    
+    /* Add these lines for 10px gap */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#card img {
+    height: 250px;
+    width: 280px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px;
+}
+
+#card #add { 
+    font-size: 1.2rem;
+    background-color: #E2DFD0;
+    padding: 10px 40px ;
+    margin: 10px auto;
+    border-radius: 10px;
+    color: blue;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    display: block;
+}
+
+#card #name{
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+
+#card #followers{
+    font-size: 0.8rem;
+}
+#card #text { 
+    font-size: 1.4rem;
+    width: 130px;
+    color: #f50000;
+    border-radius: 10px; 
+    padding-left: 30px;
+    display: block;
+    margin: 0 auto; /* Add this to center it */
+}
